@@ -98,7 +98,7 @@ function renderProductCard(product) {
     : '';
 
   const priceClass = product.badge === 'Sale' ? 'product-price sale' : 'product-price';
-  const imageSrc = generatePlaceholder(product);
+  const imageSrc = product.image || generatePlaceholder(product);
 
   return `
     <article class="product-card fade-in" data-product-id="${product.id}">
