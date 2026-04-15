@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <!-- Search -->
+  <symbol id="icon-search" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8"/>
+    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+  </symbol>
+
+  <!-- Shopping Cart -->
+  <symbol id="icon-cart" viewBox="0 0 24 24">
+    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+    <line x1="3" y1="6" x2="21" y2="6"/>
+    <path d="M16 10a4 4 0 01-8 0"/>
+  </symbol>
+
+  <!-- Menu (Hamburger) -->
+  <symbol id="icon-menu" viewBox="0 0 24 24">
+    <line x1="3" y1="6" x2="21" y2="6"/>
+    <line x1="3" y1="12" x2="21" y2="12"/>
+    <line x1="3" y1="18" x2="21" y2="18"/>
+  </symbol>
+
+  <!-- Close (X) -->
+  <symbol id="icon-close" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18"/>
+    <line x1="6" y1="6" x2="18" y2="18"/>
+  </symbol>
+
+  <!-- Chevron Down -->
+  <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+    <polyline points="6 9 12 15 18 9"/>
+  </symbol>
+
+  <!-- Chevron Right -->
+  <symbol id="icon-chevron-right" viewBox="0 0 24 24">
+    <polyline points="9 18 15 12 9 6"/>
+  </symbol>
+
+  <!-- Truck (Free Shipping) -->
+  <symbol id="icon-truck" viewBox="0 0 24 24">
+    <rect x="1" y="3" width="15" height="13"/>
+    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+    <circle cx="5.5" cy="18.5" r="2.5"/>
+    <circle cx="18.5" cy="18.5" r="2.5"/>
+  </symbol>
+
+  <!-- Return Arrow (Easy Returns) -->
+  <symbol id="icon-return" viewBox="0 0 24 24">
+    <polyline points="1 4 1 10 7 10"/>
+    <path d="M3.51 15a9 9 0 102.13-9.36L1 10"/>
+  </symbol>
+
+  <!-- Star (Expert Advice) -->
+  <symbol id="icon-star" viewBox="0 0 24 24">
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+  </symbol>
+
+  <!-- Leaf (Sustainable) -->
+  <symbol id="icon-leaf" viewBox="0 0 24 24">
+    <path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75"/>
+  </symbol>
+
+  <!-- Mail -->
+  <symbol id="icon-mail" viewBox="0 0 24 24">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+  </symbol>
+
+  <!-- Facebook -->
+  <symbol id="icon-facebook" viewBox="0 0 24 24">
+    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+  </symbol>
+
+  <!-- Instagram -->
+  <symbol id="icon-instagram" viewBox="0 0 24 24">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+  </symbol>
+
+  <!-- YouTube -->
+  <symbol id="icon-youtube" viewBox="0 0 24 24">
+    <path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/>
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+  </symbol>
+
+  <!-- Mountain/Peak (for logo) -->
+  <symbol id="icon-mountain" viewBox="0 0 24 24">
+    <path d="M12 2L2 22h20L12 2z"/>
+    <path d="M12 2l4 8-4 3-4-3 4-8z" opacity="0.3"/>
+  </symbol>
+
+  <!-- Running Shoe silhouette -->
+  <symbol id="icon-shoe" viewBox="0 0 80 60">
+    <path d="M10 45 C10 35 15 30 25 28 C30 27 35 20 40 18 C45 16 50 18 52 22 C54 26 58 24 62 22 C66 20 70 22 72 26 C74 30 75 35 75 38 C75 42 72 45 68 45 Z" fill="currentColor" opacity="0.2"/>
+    <path d="M5 45 L75 45" stroke="currentColor" opacity="0.15" stroke-width="2"/>
+  </symbol>
+
+  <!-- T-Shirt silhouette -->
+  <symbol id="icon-tshirt" viewBox="0 0 80 60">
+    <path d="M25 8 L20 8 L8 18 L15 22 L20 17 L20 52 L60 52 L60 17 L65 22 L72 18 L60 8 L55 8 C55 8 50 15 40 15 C30 15 25 8 25 8 Z" fill="currentColor" opacity="0.2"/>
+  </symbol>
+
+  <!-- Shorts silhouette -->
+  <symbol id="icon-shorts" viewBox="0 0 80 60">
+    <path d="M18 10 L62 10 L62 20 C62 25 58 28 55 32 L55 50 L42 50 L40 30 L38 50 L25 50 L25 32 C22 28 18 25 18 20 Z" fill="currentColor" opacity="0.2"/>
+  </symbol>
+
+  <!-- Arrow Right -->
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+    <line x1="5" y1="12" x2="19" y2="12"/>
+    <polyline points="12 5 19 12 12 19"/>
+  </symbol>
+
+  <!-- Minus -->
+  <symbol id="icon-minus" viewBox="0 0 24 24">
+    <line x1="5" y1="12" x2="19" y2="12"/>
+  </symbol>
+
+  <!-- Plus -->
+  <symbol id="icon-plus" viewBox="0 0 24 24">
+    <line x1="12" y1="5" x2="12" y2="19"/>
+    <line x1="5" y1="12" x2="19" y2="12"/>
+  </symbol>
+
+  <!-- Trash -->
+  <symbol id="icon-trash" viewBox="0 0 24 24">
+    <polyline points="3 6 5 6 21 6"/>
+    <path d="M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/>
+  </symbol>
+</svg>

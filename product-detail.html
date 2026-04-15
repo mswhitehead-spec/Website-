@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Detail - Nordic Trail</title>
+  <meta name="description" content="View product details, select your size, and add to cart.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="detail">
+
+  <!-- SVG Icons -->
+  <div style="display:none">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+      <symbol id="icon-cart" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+      <symbol id="icon-chevron-down" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></symbol>
+    </svg>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 28 28" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 3L4 25h20L14 3z"/>
+          <path d="M14 3l3 7-3 2.5L11 10l3-7z" opacity="0.4"/>
+        </svg>
+        NORDIC TRAIL
+      </a>
+
+      <nav class="nav-links">
+        <a href="products.html?category=running-shoes">Running Shoes</a>
+        <a href="products.html?category=t-shirts">T-Shirts</a>
+        <a href="products.html?category=shorts">Shorts</a>
+        <a href="products.html">All Products</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-btn search-btn" aria-label="Search products">
+          <svg><use href="#icon-search"/></svg>
+        </button>
+        <button class="header-btn cart-btn" aria-label="Open cart">
+          <svg><use href="#icon-cart"/></svg>
+          <span class="cart-count" aria-live="polite">0</span>
+        </button>
+        <button class="hamburger" aria-label="Open menu">
+          <svg><use href="#icon-menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <span class="logo" style="font-size:1rem">NORDIC TRAIL</span>
+      <button class="mobile-menu-close" aria-label="Close menu">
+        <svg><use href="#icon-close"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-links">
+      <a href="products.html?category=running-shoes">Running Shoes</a>
+      <a href="products.html?category=t-shirts">T-Shirts</a>
+      <a href="products.html?category=shorts">Shorts</a>
+      <a href="products.html">All Products</a>
+    </nav>
+  </div>
+
+  <!-- Search Overlay -->
+  <div class="search-overlay">
+    <div class="search-box">
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" placeholder="Search for products, brands...">
+      </div>
+      <div class="search-results"></div>
+    </div>
+  </div>
+
+  <main class="product-detail-container">
+    <div class="container">
+      <!-- Breadcrumb -->
+      <div class="page-header">
+        <div class="breadcrumb">
+          <a href="index.html">Home</a> / <a href="products.html" class="breadcrumb-category">Products</a> / <span class="breadcrumb-product">Product</span>
+        </div>
+      </div>
+
+      <!-- Product Detail -->
+      <div class="product-detail">
+        <div class="product-detail-image">
+          <img src="" alt="Product image">
+        </div>
+        <div class="product-detail-info">
+          <span class="product-badge detail-badge" style="display:none;margin-bottom:12px"></span>
+          <div class="detail-brand"></div>
+          <h1 class="detail-name"></h1>
+          <div class="detail-price"></div>
+          <p class="detail-description"></p>
+
+          <!-- Size Selector -->
+          <div class="size-selector">
+            <span class="size-selector-label">Select Size</span>
+            <div class="size-options"></div>
+          </div>
+
+          <!-- Add to Cart -->
+          <button class="add-to-cart-btn" disabled>Add to Cart</button>
+
+          <!-- Product Details Accordion -->
+          <div class="product-details-accordion">
+            <div class="accordion-item">
+              <button class="accordion-trigger">
+                Materials & Specs
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-chevron-down"/></svg>
+              </button>
+              <div class="accordion-content">
+                <p class="detail-materials"></p>
+                <p class="detail-weight" style="margin-top:8px"></p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-trigger">
+                Shipping & Returns
+                <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><use href="#icon-chevron-down"/></svg>
+              </button>
+              <div class="accordion-content">
+                <p>Free shipping on orders over 500 DKK. Standard delivery 2-4 business days. Express delivery available.</p>
+                <p style="margin-top:8px">Free returns within 30 days. Items must be unworn with original tags attached.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Products -->
+      <section class="related-products">
+        <h2>You Might Also Like</h2>
+        <div class="product-grid related-grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="logo" style="color:white">
+            <svg viewBox="0 0 28 28" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 3L4 25h20L14 3z"/>
+              <path d="M14 3l3 7-3 2.5L11 10l3-7z" opacity="0.4"/>
+            </svg>
+            NORDIC TRAIL
+          </div>
+          <p>Your destination for premium outdoor sports gear. We curate the best products from the world's top brands for Nordic adventures.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=running-shoes">Running Shoes</a></li>
+            <li><a href="products.html?category=t-shirts">T-Shirts</a></li>
+            <li><a href="products.html?category=shorts">Shorts</a></li>
+            <li><a href="products.html">All Products</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Customer Service</h4>
+          <ul class="footer-links">
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Nordic Trail. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <div class="cart-overlay"></div>
+  <div class="cart-drawer">
+    <div class="cart-drawer-header">
+      <h3>Your Cart (0)</h3>
+      <button class="cart-close-btn" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="cart-items"></div>
+    <div class="cart-drawer-footer" style="display:none">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span class="cart-subtotal-amount">0 DKK</span>
+      </div>
+      <button class="cart-checkout-btn">Checkout</button>
+      <a href="#" class="cart-continue">Continue Shopping</a>
+    </div>
+  </div>
+
+  <script src="js/data/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
