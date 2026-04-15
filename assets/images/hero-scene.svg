@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a2a3a"/>
+      <stop offset="25%" stop-color="#2a4a5a"/>
+      <stop offset="50%" stop-color="#4a7a8a"/>
+      <stop offset="75%" stop-color="#6a9aaa"/>
+      <stop offset="100%" stop-color="#8ab0b8"/>
+    </linearGradient>
+    <!-- Sun glow -->
+    <radialGradient id="sunGlow" cx="75%" cy="55%" r="30%">
+      <stop offset="0%" stop-color="rgba(255,200,120,0.4)"/>
+      <stop offset="50%" stop-color="rgba(255,180,100,0.15)"/>
+      <stop offset="100%" stop-color="rgba(255,160,80,0)"/>
+    </radialGradient>
+    <!-- Haze -->
+    <linearGradient id="haze" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="rgba(180,200,210,0.5)"/>
+      <stop offset="40%" stop-color="rgba(180,200,210,0.15)"/>
+      <stop offset="100%" stop-color="rgba(180,200,210,0)"/>
+    </linearGradient>
+    <!-- Forest gradients -->
+    <linearGradient id="farForest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a4a3a"/>
+      <stop offset="100%" stop-color="#1a3a2a"/>
+    </linearGradient>
+    <linearGradient id="midForest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3e2a"/>
+      <stop offset="100%" stop-color="#152e1e"/>
+    </linearGradient>
+    <linearGradient id="nearForest" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162e1c"/>
+      <stop offset="100%" stop-color="#0e2214"/>
+    </linearGradient>
+    <!-- Water -->
+    <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a8a90"/>
+      <stop offset="100%" stop-color="#3a6a70"/>
+    </linearGradient>
+    <!-- Overlay for text readability -->
+    <linearGradient id="textOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(15,30,20,0.45)"/>
+      <stop offset="40%" stop-color="rgba(15,30,20,0.25)"/>
+      <stop offset="70%" stop-color="rgba(15,30,20,0.35)"/>
+      <stop offset="100%" stop-color="rgba(15,30,20,0.55)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <rect width="1600" height="900" fill="url(#sunGlow)"/>
+
+  <!-- Stars/dots -->
+  <circle cx="200" cy="60" r="1" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="450" cy="90" r="1.2" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="700" cy="40" r="0.8" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="950" cy="75" r="1" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="1200" cy="50" r="1.5" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="1400" cy="100" r="0.8" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="100" cy="120" r="1" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="350" cy="30" r="0.7" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- Far mountains (light, misty) -->
+  <path d="M-50,550 L100,350 L200,420 L350,280 L450,380 L550,300 L650,360 L750,250 L850,340 L950,270 L1050,350 L1150,290 L1250,370 L1350,310 L1450,380 L1550,320 L1700,400 L1700,600 L-50,600 Z" fill="#4a7a6a" opacity="0.5"/>
+
+  <!-- Mid-far mountains (slightly darker) -->
+  <path d="M-50,580 L50,440 L150,490 L280,370 L380,430 L500,340 L620,410 L720,330 L830,400 L940,350 L1060,420 L1160,360 L1280,430 L1380,370 L1500,450 L1600,400 L1700,500 L1700,650 L-50,650 Z" fill="#3a6a5a" opacity="0.6"/>
+
+  <!-- Snow-capped peak left -->
+  <path d="M200,490 L350,300 L500,490 Z" fill="#3a6a5a" opacity="0.7"/>
+  <path d="M310,360 L350,300 L390,360 Z" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Snow-capped peak center-right -->
+  <path d="M900,500 L1100,280 L1300,500 Z" fill="#3a6a5a" opacity="0.7"/>
+  <path d="M1040,350 L1100,280 L1160,350 Z" fill="rgba(255,255,255,0.35)"/>
+  <path d="M1060,370 L1100,280 L1080,340 Z" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Atmospheric haze -->
+  <rect y="400" width="1600" height="500" fill="url(#haze)"/>
+
+  <!-- Mid hills with forest -->
+  <path d="M-50,650 L100,550 L250,590 L400,520 L550,570 L700,510 L850,560 L1000,500 L1150,550 L1300,510 L1450,560 L1600,520 L1700,580 L1700,700 L-50,700 Z" fill="url(#farForest)"/>
+
+  <!-- Far treeline silhouette (on mid hills) -->
+  <path d="M-50,620
+    L0,610 L10,590 L20,610 L30,600 L40,580 L50,600 L60,610 L80,595 L90,570 L100,595
+    L110,610 L130,590 L140,570 L150,590 L160,600 L180,585 L190,560 L200,585 L210,600
+    L230,580 L240,560 L250,580 L260,595 L280,575 L290,555 L300,575 L310,590
+    L330,570 L340,550 L350,570 L360,585 L380,565 L390,545 L400,565 L410,580
+    L430,560 L440,540 L450,560 L460,575 L480,555 L490,535 L500,555 L510,570
+    L530,550 L540,530 L550,550 L560,565 L580,545 L590,525 L600,545 L610,560
+    L630,540 L640,520 L650,540 L660,555 L680,535 L690,515 L700,535 L710,550
+    L730,530 L740,510 L750,530 L760,548 L780,528 L790,508 L800,528 L810,545
+    L830,525 L840,505 L850,525 L860,542 L880,522 L890,502 L900,522 L910,540
+    L930,520 L940,500 L950,520 L960,538 L980,518 L990,498 L1000,518 L1010,535
+    L1030,515 L1040,495 L1050,515 L1060,530 L1080,510 L1090,490 L1100,510 L1110,528
+    L1130,508 L1140,488 L1150,508 L1160,525 L1180,505 L1190,485 L1200,505 L1210,522
+    L1230,502 L1240,482 L1250,502 L1260,518 L1280,498 L1290,480 L1300,500 L1310,515
+    L1330,498 L1340,478 L1350,498 L1360,512 L1380,495 L1390,475 L1400,495 L1410,510
+    L1430,495 L1440,478 L1450,495 L1460,510 L1480,498 L1490,480 L1500,498 L1510,512
+    L1530,498 L1540,482 L1550,498 L1560,510 L1580,500 L1590,485 L1600,500
+    L1700,520 L1700,700 L-50,700 Z" fill="url(#midForest)" opacity="0.9"/>
+
+  <!-- Lake/water -->
+  <path d="M-50,700 L-50,760 L1700,760 L1700,700
+    L1600,695 L1500,700 L1400,692 L1300,698 L1200,690 L1100,696 L1000,688
+    L900,694 L800,686 L700,692 L600,684 L500,690 L400,682 L300,688 L200,680
+    L100,686 L0,695 Z" fill="url(#water)" opacity="0.7"/>
+
+  <!-- Water reflections -->
+  <line x1="100" y1="720" x2="250" y2="720" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <line x1="400" y1="730" x2="500" y2="730" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="700" y1="715" x2="900" y2="715" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <line x1="1000" y1="725" x2="1100" y2="725" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="1250" y1="735" x2="1400" y2="735" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="200" y1="740" x2="350" y2="740" stroke="rgba(255,255,255,0.05)" stroke-width="0.8"/>
+  <line x1="850" y1="745" x2="950" y2="745" stroke="rgba(255,255,255,0.05)" stroke-width="0.8"/>
+
+  <!-- Near forest (darkest, foreground) -->
+  <path d="M-50,760
+    L-20,740 L-10,710 L0,740 L10,750 L20,730 L30,700 L40,730 L50,745
+    L60,725 L70,690 L80,725 L90,740 L100,720 L110,685 L120,720 L130,738
+    L140,715 L150,680 L160,715 L170,735 L180,712 L190,675 L200,710 L210,730
+    L220,708 L230,670 L240,705 L250,728 L260,705 L270,668 L280,702 L290,725
+    L300,700 L310,665 L320,698 L330,720 L340,695 L350,660 L360,695 L370,718
+    L380,692 L390,658 L400,690 L410,715 L420,688 L430,655 L440,688 L450,712
+    L460,686 L470,652 L480,685 L490,710 L500,682 L510,648 L520,682 L530,706
+    L540,680 L550,645 L560,678 L570,702 L580,676 L590,642 L600,675 L610,700
+    L620,672 L630,638 L640,672 L650,698 L660,670 L670,635 L680,668 L690,695
+    L700,665 L710,632 L720,665 L730,690 L740,662 L750,628 L760,662 L770,688
+    L780,658 L790,625 L800,660 L810,685 L820,655 L830,622 L840,658 L850,682
+    L860,652 L870,620 L880,655 L890,680 L900,650 L910,618 L920,652 L930,678
+    L940,648 L950,615 L960,650 L970,675 L980,645 L990,612 L1000,648 L1010,672
+    L1020,642 L1030,610 L1040,645 L1050,670 L1060,640 L1070,608 L1080,642 L1090,668
+    L1100,638 L1110,605 L1120,640 L1130,665 L1140,635 L1150,602 L1160,638 L1170,662
+    L1180,632 L1190,600 L1200,635 L1210,660 L1220,630 L1230,598 L1240,632 L1250,658
+    L1260,628 L1270,596 L1280,630 L1290,655 L1300,625 L1310,594 L1320,628 L1330,652
+    L1340,625 L1350,595 L1360,628 L1370,650 L1380,622 L1390,592 L1400,625 L1410,648
+    L1420,620 L1430,590 L1440,622 L1450,645 L1460,618 L1470,588 L1480,620 L1490,642
+    L1500,615 L1510,586 L1520,618 L1530,640 L1540,612 L1550,584 L1560,615 L1570,638
+    L1580,610 L1590,582 L1600,612
+    L1700,650 L1700,900 L-50,900 Z" fill="url(#nearForest)"/>
+
+  <!-- Ground/trail area -->
+  <path d="M-50,830 Q200,810 400,820 Q600,830 800,815 Q1000,800 1200,815 Q1400,825 1600,810 L1700,810 L1700,900 L-50,900 Z" fill="#0e2214"/>
+
+  <!-- Trail/path hint -->
+  <path d="M700,900 Q720,850 780,820 Q850,790 950,780 Q1050,775 1100,790" fill="none" stroke="rgba(180,160,130,0.12)" stroke-width="20" stroke-linecap="round"/>
+
+  <!-- Overlay for text legibility -->
+  <rect width="1600" height="900" fill="url(#textOverlay)"/>
+
+  <!-- Subtle vignette -->
+  <rect width="1600" height="900" fill="url(#textOverlay)" opacity="0.3"/>
+</svg>
