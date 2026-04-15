@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#7a7a7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="50" cy="50" r="120" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="350" cy="400" r="150" fill="rgba(255,255,255,0.03)"/>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="395" rx="95" ry="10" fill="rgba(0,0,0,0.12)"/>
+  <!-- Shorts -->
+  <g transform="translate(90, 100)">
+    <!-- Waistband -->
+    <rect x="10" y="0" width="200" height="25" rx="3" fill="rgba(255,255,255,0.95)"/>
+    <line x1="10" y1="12" x2="210" y2="12" stroke="rgba(0,0,0,0.06)" stroke-width="1" stroke-dasharray="4,3"/>
+    <!-- Drawstring -->
+    <path d="M100,8 Q105,18 110,8" fill="none" stroke="rgba(0,0,0,0.12)" stroke-width="1.5"/>
+    <line x1="100" y1="8" x2="92" y2="20" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+    <line x1="110" y1="8" x2="118" y2="20" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+    <!-- Left leg -->
+    <path d="M10,25 L5,260 Q5,270 15,272 L95,272 Q105,270 108,260 L110,25 Z" fill="rgba(255,255,255,0.88)"/>
+    <!-- Right leg -->
+    <path d="M110,25 L112,260 Q112,270 122,272 L205,272 Q215,270 215,260 L210,25 Z" fill="rgba(255,255,255,0.88)"/>
+    <!-- Center seam -->
+    <path d="M110,25 L110,140" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+    <!-- Side seams -->
+    <line x1="10" y1="25" x2="5" y2="260" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <line x1="210" y1="25" x2="215" y2="260" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <!-- Left pocket -->
+    <path d="M25,35 Q20,45 22,80 Q23,85 30,85 L70,75 Q75,73 75,68 L75,40 Q75,35 70,35 Z" fill="none" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+    <!-- Right pocket -->
+    <path d="M195,35 Q200,45 198,80 Q197,85 190,85 L150,75 Q145,73 145,68 L145,40 Q145,35 150,35 Z" fill="none" stroke="rgba(0,0,0,0.06)" stroke-width="1"/>
+    <!-- Leg hem details -->
+    <line x1="15" y1="265" x2="95" y2="265" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <line x1="122" y1="265" x2="205" y2="265" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <!-- Side split detail on left leg -->
+    <path d="M5,240 L5,260" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <!-- Side split detail on right leg -->
+    <path d="M215,240 L215,260" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  </g>
+  <!-- Brand badge -->
+  <circle cx="355" cy="42" r="24" fill="rgba(255,255,255,0.15)"/>
+  <text x="355" y="49" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="rgba(255,255,255,0.7)">N</text>
+  <text x="200" y="465" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.5)" letter-spacing="3">NIKE</text>
+</svg>

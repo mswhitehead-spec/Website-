@@ -11,7 +11,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: "New",
     colorHex: "#2d5a3d",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Synthetic mesh with Gore-Tex membrane. Sole: Contagrip MA rubber. Midsole: EnergyCell+ foam.",
     weight: "310g"
   },
@@ -26,7 +26,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#4a5568",
-    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Anti-debris mesh. Sole: Contagrip MA. Midsole: EnergyCell+. Quicklace system.",
     weight: "300g"
   },
@@ -41,7 +41,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: "Bestseller",
     colorHex: "#5b7fa5",
-    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Engineered knit mesh. Sole: Durabrasion rubber. Midsole: Compression-molded EVA.",
     weight: "248g"
   },
@@ -56,7 +56,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#e8725a",
-    image: "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Engineered sandwich mesh. Sole: Durabrasion rubber. Midsole: PROFLY+ dual-density foam.",
     weight: "232g"
   },
@@ -71,7 +71,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: "New",
     colorHex: "#6b5b95",
-    image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Engineered mesh. Sole: Rubber with CloudTec. Midsole: Helion HF superfoam.",
     weight: "275g"
   },
@@ -86,7 +86,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#8b9a7b",
-    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Recycled engineered mesh. Sole: CloudTec with rubber outsole. Speed lacing system.",
     weight: "245g"
   },
@@ -101,7 +101,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#3d6b8e",
-    image: "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Engineered mesh with ORTHOLITE X-55 insole. Midsole: FF BLAST PLUS ECO. Gel technology.",
     weight: "290g"
   },
@@ -116,7 +116,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#5a7a6a",
-    image: "https://images.unsplash.com/photo-1539185441755-769473a23570?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Engineered mesh. Midsole: FF BLAST PLUS. LITETRUSS support system. AHAR outsole.",
     weight: "280g"
   },
@@ -131,7 +131,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: null,
     colorHex: "#7a6a5a",
-    image: "https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Trail mesh with reinforced overlays. Midsole: Nike React foam. Rock plate protection.",
     weight: "298g"
   },
@@ -146,7 +146,7 @@ const PRODUCTS = [
     sizes: ["38", "39", "40", "41", "42", "43", "44", "45"],
     badge: "Sale",
     colorHex: "#8a6d4a",
-    image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Upper: Breathable mesh with midfoot strap. Sole: Multi-directional lug pattern. Midsole: React foam.",
     weight: "305g"
   },
@@ -163,7 +163,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a6e5a",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "70% Merino Wool, 30% Tencel. 150g/m² fabric weight. Flatlock seams.",
     weight: "145g"
   },
@@ -178,7 +178,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "New",
     colorHex: "#4a6a5a",
-    image: "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Organic Cotton. 180g/m² fabric weight. Screen-printed design.",
     weight: "170g"
   },
@@ -193,7 +193,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "Bestseller",
     colorHex: "#3a5a7a",
-    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "87% Merino Wool, 13% Nylon. Corespun technology. 150g/m² jersey.",
     weight: "130g"
   },
@@ -208,7 +208,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#7a8a6a",
-    image: "https://images.unsplash.com/photo-1622445275576-721325763afe?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "52% Merino Wool, 48% Tencel. Cool-Lite jersey. UPF 30+ sun protection.",
     weight: "135g"
   },
@@ -223,7 +223,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#6a7a8a",
-    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Polyester. HeiQ Fresh odor control. UPF 50+ sun protection.",
     weight: "120g"
   },
@@ -238,7 +238,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#8a7a5a",
-    image: "https://images.unsplash.com/photo-1598032895397-857f7d5f81c0?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Polyester. Body-mapped mesh ventilation. Polygiene odor control.",
     weight: "110g"
   },
@@ -253,7 +253,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a5a7a",
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Polyester Phasic SL. Moisture-wicking. UPF 25+ sun protection.",
     weight: "115g"
   },
@@ -268,7 +268,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "New",
     colorHex: "#4a5a6a",
-    image: "https://images.unsplash.com/photo-1627225924765-552d49cf47ad?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Polyester Phasic AR. Anti-odor treatment. Reflective logo.",
     weight: "125g"
   },
@@ -283,7 +283,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#6a8a6a",
-    image: "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Polyester. FlashDry technology. UPF 30+.",
     weight: "140g"
   },
@@ -298,7 +298,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "Sale",
     colorHex: "#9a7a5a",
-    image: "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "50% Recycled Polyester, 50% Polyester. FlashDry-XD. Relaxed fit.",
     weight: "150g"
   },
@@ -315,7 +315,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a6a4a",
-    image: "https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "G-1000 Lite Eco: 65% Polyester, 35% Organic Cotton. DWR treated. 2 hand pockets, 1 leg pocket.",
     weight: "220g"
   },
@@ -330,7 +330,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "New",
     colorHex: "#6a7a5a",
-    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "92% Recycled Nylon, 8% Elastane. DWR treated. Elastic waistband with drawcord.",
     weight: "160g"
   },
@@ -345,7 +345,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#4a5a6a",
-    image: "https://images.unsplash.com/photo-1594998893017-36147cbde6c5?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Polyester. Built-in brief liner. Zip security pocket. 360° reflective details.",
     weight: "95g"
   },
@@ -360,7 +360,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "Bestseller",
     colorHex: "#3a4a5a",
-    image: "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "86% Polyamide, 14% Elastane. AdvancedSkin ActiveDry. Split hem design.",
     weight: "78g"
   },
@@ -375,7 +375,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a8a7a",
-    image: "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Nylon with DWR finish. Mesh liner. Elastic waistband with internal drawcord.",
     weight: "155g"
   },
@@ -390,7 +390,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#7a5a4a",
-    image: "https://images.unsplash.com/photo-1506529082955-511b1aa562c8?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "50% Recycled Polyester, 50% Polyester. Built-in brief. Envelope back pocket.",
     weight: "105g"
   },
@@ -405,7 +405,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a5a5a",
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "100% Recycled Polyester. Dri-FIT technology. Brief liner. Side zip pockets.",
     weight: "120g"
   },
@@ -420,7 +420,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#3a3a3a",
-    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "Ripstop: 90% Recycled Polyester, 10% Spandex. Dri-FIT ADV. Secure zip pocket.",
     weight: "145g"
   },
@@ -435,7 +435,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: "New",
     colorHex: "#6a5a8a",
-    image: "https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "88% Recycled Polyamide, 12% Elastane. Internal compression liner. Reflective details.",
     weight: "88g"
   },
@@ -450,7 +450,7 @@ const PRODUCTS = [
     sizes: ["XS", "S", "M", "L", "XL", "XXL"],
     badge: null,
     colorHex: "#5a6a7a",
-    image: "https://images.unsplash.com/photo-1548883354-a9535fcef8a3?w=400&h=500&fit=crop&auto=format",
+    image: null,
     materials: "85% Recycled Polyamide, 15% Elastane. Zip pocket. Drawcord waistband.",
     weight: "135g"
   }

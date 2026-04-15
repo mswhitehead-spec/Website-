@@ -98,7 +98,7 @@ function renderProductCard(product) {
     : '';
 
   const priceClass = product.badge === 'Sale' ? 'product-price sale' : 'product-price';
-  const imageSrc = product.image || generatePlaceholder(product);
+  const imageSrc = `assets/images/products/${product.id}.svg`;
 
   return `
     <article class="product-card fade-in" data-product-id="${product.id}">
@@ -213,7 +213,7 @@ function initHeader() {
         resultsContainer.innerHTML = results.map(p => `
           <a href="product-detail.html?id=${p.id}" class="search-result-item">
             <div class="search-result-image">
-              <img src="${generatePlaceholder(p)}" alt="${p.name}">
+              <img src="assets/images/products/${p.id}.svg" alt="${p.name}">
             </div>
             <div class="search-result-info">
               <div class="search-result-brand">${p.brand}</div>
@@ -369,7 +369,7 @@ function initDetailPage() {
   // Fill in product details
   const img = document.querySelector('.product-detail-image img');
   if (img) {
-    img.src = generatePlaceholder(product);
+    img.src = `assets/images/products/${product.id}.svg`;
     img.alt = `${product.name} by ${product.brand}`;
   }
 

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a7a6a"/>
+      <stop offset="100%" stop-color="#9abaaa"/>
+    </linearGradient>
+    <linearGradient id="shoe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.95)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.8)"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <!-- Subtle pattern -->
+  <circle cx="50" cy="50" r="120" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="350" cy="400" r="150" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="300" cy="100" r="80" fill="rgba(255,255,255,0.02)"/>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="340" rx="120" ry="12" fill="rgba(0,0,0,0.15)"/>
+  <!-- Shoe -->
+  <g transform="translate(60, 180)">
+    <!-- Sole -->
+    <path d="M20,120 Q20,135 40,140 L240,140 Q270,140 280,130 Q285,125 280,115 L270,110 L20,110 Z" fill="rgba(255,255,255,0.3)"/>
+    <!-- Midsole -->
+    <path d="M25,110 L275,110 Q280,105 275,95 L30,95 Q20,100 25,110 Z" fill="rgba(255,255,255,0.6)"/>
+    <!-- Upper shoe body -->
+    <path d="M30,95 L60,30 Q70,15 90,10 L160,5 Q180,5 190,15 Q200,25 220,30 Q250,40 270,55 Q285,65 280,85 L275,95 Z" fill="url(#shoe)"/>
+    <!-- Collar/ankle area -->
+    <path d="M60,30 Q55,20 65,10 L90,5 Q80,15 75,25 Z" fill="rgba(255,255,255,0.7)"/>
+    <!-- Tongue -->
+    <path d="M90,10 L100,0 Q120,-5 140,0 L155,5 Q140,8 120,8 Q100,8 90,10 Z" fill="rgba(255,255,255,0.85)"/>
+    <!-- Lace area -->
+    <line x1="95" y1="15" x2="145" y2="10" stroke="#5a7a6a" stroke-width="1.5" opacity="0.3"/>
+    <line x1="90" y1="25" x2="150" y2="18" stroke="#5a7a6a" stroke-width="1.5" opacity="0.3"/>
+    <line x1="85" y1="35" x2="155" y2="26" stroke="#5a7a6a" stroke-width="1.5" opacity="0.3"/>
+    <line x1="80" y1="45" x2="160" y2="34" stroke="#5a7a6a" stroke-width="1.5" opacity="0.3"/>
+    <!-- Swoosh/accent -->
+    <path d="M70,80 Q120,50 200,45 Q240,43 265,55" fill="none" stroke="#5a7a6a" stroke-width="3" opacity="0.4"/>
+    <!-- Toe box detail -->
+    <path d="M240,55 Q260,60 275,75 Q280,82 278,90" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <!-- Sole tread -->
+    <line x1="50" y1="138" x2="60" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="70" y1="138" x2="80" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="90" y1="138" x2="100" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="110" y1="138" x2="120" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="130" y1="138" x2="140" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="150" y1="138" x2="160" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="170" y1="138" x2="180" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="190" y1="138" x2="200" y2="138" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="210" y1="137" x2="220" y2="137" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+    <line x1="230" y1="136" x2="240" y2="135" stroke="#5a7a6a" stroke-width="1" opacity="0.2"/>
+  </g>
+  <!-- Brand badge -->
+  <circle cx="355" cy="42" r="24" fill="rgba(255,255,255,0.15)"/>
+  <text x="355" y="49" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="rgba(255,255,255,0.7)">A</text>
+  <!-- Brand name -->
+  <text x="200" y="465" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.5)" letter-spacing="3">ASICS</text>
+</svg>

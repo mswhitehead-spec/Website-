@@ -114,7 +114,7 @@ const Cart = (() => {
     itemsContainer.innerHTML = items.map((item, index) => {
       const product = getProductById(item.productId);
       if (!product) return '';
-      const imageSrc = generatePlaceholder(product);
+      const imageSrc = `assets/images/products/${product.id}.svg`;
       return `
         <div class="cart-item">
           <div class="cart-item-image">

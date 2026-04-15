@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a5a6a"/>
+      <stop offset="100%" stop-color="#8a9aaa"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="50" cy="50" r="120" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="350" cy="400" r="150" fill="rgba(255,255,255,0.03)"/>
+  <!-- Shadow -->
+  <ellipse cx="200" cy="410" rx="100" ry="10" fill="rgba(0,0,0,0.12)"/>
+  <!-- T-Shirt -->
+  <g transform="translate(80, 80)">
+    <!-- Body -->
+    <path d="M60,60 L60,310 Q60,320 70,320 L170,320 Q180,320 180,310 L180,60" fill="rgba(255,255,255,0.9)"/>
+    <!-- Left sleeve -->
+    <path d="M60,60 L60,0 Q55,-5 40,-5 L-10,15 Q-20,20 -15,30 L15,75 Q20,80 30,75 L60,60 Z" fill="rgba(255,255,255,0.85)"/>
+    <!-- Right sleeve -->
+    <path d="M180,60 L180,0 Q185,-5 200,-5 L250,15 Q260,20 255,30 L225,75 Q220,80 210,75 L180,60 Z" fill="rgba(255,255,255,0.85)"/>
+    <!-- Collar -->
+    <path d="M60,0 Q80,-15 120,-18 Q160,-15 180,0 Q165,15 120,18 Q75,15 60,0 Z" fill="url(#bg)" opacity="0.6"/>
+    <path d="M60,0 Q80,-12 120,-15 Q160,-12 180,0 Q165,10 120,12 Q75,10 60,0 Z" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <!-- Sleeve seam lines -->
+    <path d="M60,60 L30,75" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="1"/>
+    <path d="M180,60 L210,75" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="1"/>
+    <!-- Side seams -->
+    <line x1="60" y1="60" x2="60" y2="320" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <line x1="180" y1="60" x2="180" y2="320" stroke="rgba(0,0,0,0.04)" stroke-width="1"/>
+    <!-- Fabric texture lines -->
+    <line x1="90" y1="80" x2="90" y2="310" stroke="rgba(0,0,0,0.015)" stroke-width="0.5"/>
+    <line x1="120" y1="75" x2="120" y2="310" stroke="rgba(0,0,0,0.015)" stroke-width="0.5"/>
+    <line x1="150" y1="80" x2="150" y2="310" stroke="rgba(0,0,0,0.015)" stroke-width="0.5"/>
+  </g>
+  <!-- Brand badge -->
+  <circle cx="355" cy="42" r="24" fill="rgba(255,255,255,0.15)"/>
+  <text x="355" y="49" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="rgba(255,255,255,0.7)">A</text>
+  <text x="200" y="465" text-anchor="middle" font-family="Inter,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="rgba(255,255,255,0.5)" letter-spacing="3">ARC'TERYX</text>
+</svg>
