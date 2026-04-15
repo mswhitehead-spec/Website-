@@ -340,7 +340,11 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: #0e2214 url('../assets/images/hero-scene.svg') center center / cover no-repeat;
+  background-color: #0e2214;
+  background-image: url('../assets/images/hero-scene.svg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
